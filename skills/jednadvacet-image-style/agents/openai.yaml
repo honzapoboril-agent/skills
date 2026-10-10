@@ -1,0 +1,15 @@
+interface:
+  display_name: Jednadvacet Image Style
+  short_description: Edit, generate, upscale and verify branded images
+  default_prompt: Use $jednadvacet-image-style to prepare or verify this image.
+    Choose local tools for deterministic edits and PPQ for required AI operations,
+    preserving protected content and the authentic graphite brand style.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
